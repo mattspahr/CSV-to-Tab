@@ -3,7 +3,6 @@ import java.io.*;
 
 public class Driver {
 	
-	
 	private static ArrayList<Student> studentList;
 	private static ArrayList<String> schoolList;
 	
@@ -15,6 +14,10 @@ public class Driver {
 		this.studentList = studentList;	
 	}
 	
+	/*
+		Reads data from the csv file and creates a Student and stores 
+		it in the list. 
+	*/
 	public static void csvToList(File csvFile) {
 		
 		try {

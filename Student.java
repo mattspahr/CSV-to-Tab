@@ -1,3 +1,8 @@
+/*
+	Student class defines a student at a university. 
+	Each student has an ID, name, and respective university. 
+*/
+
 public class Student {
 	
 	private int id;
